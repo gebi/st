@@ -4,6 +4,14 @@ st is a simple terminal emulator for X which sucks less.
 This is repository with my config and integration scripts tracking what i use as st.
 I really hate handling patches, thus everything is done in git.
 
+How to build:
+
+```
+git checkout release
+make -j
+./st
+```
+
 ## Overview
 
 Every patch i use is imported into it's own git branch.
@@ -28,3 +36,14 @@ taken from `config.def.h`.
 * upstream: tracks the upstream st git repo
 * st-\*: includes all imported patches from https://st.suckless.org/patches/
 * t/st-\*: all st features i've tested but am currently not using
+
+
+## Patches
+
+### scrollback
+
+scrollback buffer, works
+
+### anysize
+
+produces variable border on the top => ugly, remove
