@@ -31,7 +31,7 @@ taken from `config.def.h`.
 
 ## Branches
 
-* master: contains my `config.h` and integraiont scripts
+* master: contains my `config.h` and integration scripts
 * release: contains the most recent version of `st` i use, ATTENTION: this branch is reset!
 * upstream: tracks the upstream st git repo
 * st-\*: includes all imported patches from https://st.suckless.org/patches/
